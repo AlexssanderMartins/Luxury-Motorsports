@@ -5,7 +5,7 @@
 	import '@skeletonlabs/skeleton/styles/all.css';
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
-	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, AppRail, AppRailTile, LightSwitch } from '@skeletonlabs/skeleton';
 	
 	let links = [
       {name: 'Home', url: '/', href: "_self"},
@@ -41,8 +41,4 @@
 
 	<!-- Page Route Content -->
 	<slot />
-
-	<svelte:fragment slot="footer">
-		
-	</svelte:fragment>
 </AppShell>

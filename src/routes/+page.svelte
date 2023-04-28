@@ -14,7 +14,7 @@
 		}
 	}
 
-	const typeing = () => typeWriter = setInterval(typeChar, 100)
+	const typeing = () => typeWriter = setInterval(typeChar, 80)
 
 	typeing()
 </script>
