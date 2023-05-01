@@ -1,5 +1,7 @@
 <script lang='ts'>
 
+	import Card from './lib/CarCard.svelte'
+
 	let phrase = "Welcome to Luxury Autos.";
 	let typedChar = "";
 	let index = 0; 
@@ -33,5 +35,11 @@
 		<div>We Offer Car Rental's For Extreamly Cheap Prices</div>
 
 		<a href="/collection" class="btn variant-ghost-success">Rent Now!</a>
+
+		<div class="p-4 gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+			<Card />
+			<Card />
+			<Card />
+		</div>
 	</div>
 </div>

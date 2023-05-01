@@ -4,7 +4,7 @@
 
 <div class="card card-hover">
     <header class="card-header p-0 relative">
-        <img class="w-screen aspect-[21/9] rounded-t" src="https://picsum.photos/400" alt="car">
+        <img class="w-screen aspect-[21/9] rounded-t" src="test.avif" alt="car">
         <span class="chip variant-ghost-success absolute bottom-3 right-3">150/w</span>
     </header>
     <div class="p-4 space-y-4 text-left">
