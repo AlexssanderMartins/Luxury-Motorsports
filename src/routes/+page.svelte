@@ -41,5 +41,10 @@
 			<Card />
 			<Card />
 		</div>
+
+		<div class="float-left btn varient">
+			Copyright:
+				
+		</div>
 	</div>
 </div>

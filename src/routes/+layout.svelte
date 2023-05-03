@@ -13,6 +13,16 @@
 	  {name: 'GitHub', url: 'https://github.com/AlexssanderMartins/Luxury-Motorsports', href: "_blank"}
     ];
 
+	let carList = [
+      {name: '2023 SRT Demon 170', price: '/', description: "link", img: "https://hips.hearstapps.com/hmg-prod/images/2023-dodge-challenger-srt-demon-1701-6414d438e4a8a.jpg?crop=0.522xw:0.442xh;0.463xw,0.373xh&resize=2048:*"},
+      {name: '2023 SRT Demon 170', price: '/', description: "link", img: "img"},
+	  {name: '2023 SRT Demon 170', price: '/', description: "link", img: "img"},
+	  {name: '2023 SRT Demon 170', price: '/', description: "link", img: "img"},
+	  {name: '2023 SRT Demon 170', price: '/', description: "link", img: "img"},
+	  {name: '2023 SRT Demon 170', price: '/', description: "link", img: "img"},
+	  {name: '2023 SRT Demon 170', price: '/', description: "link", img: "img"},
+    ];
+
 </script>
 
 <!-- App Shell -->
@@ -40,5 +50,5 @@
 	</svelte:fragment>
 
 	<!-- Page Route Content -->
-	<slot />
+	<slot cars="carList"/>
 </AppShell>
