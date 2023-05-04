@@ -8,9 +8,9 @@
 	import { AppShell, AppBar, AppRail, AppRailTile, LightSwitch } from '@skeletonlabs/skeleton';
 	
 	let links = [
-      {name: 'Home', url: 'Luxury-Motorsports/', href: "_self"},
-      {name: 'Collection', url: 'Luxury-Motorsports/collection', href: "_self"},
-	  {name: 'GitHub', url: 'https://github.com/AlexssanderMartins/Luxury-Motorsports', href: "_blank"}
+      {name: 'Home', url: './', href: "_self"},
+      {name: 'Collection', url: './collection', href: "_self"},
+	  {name: 'GitHub', url: 'https://github.com/AlexssanderMartins/', href: "_blank"}
     ];
 
 </script>
