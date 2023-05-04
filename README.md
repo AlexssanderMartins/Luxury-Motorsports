@@ -16,4 +16,6 @@ https://cdn.upload.systems/uploads/exnWQCkL.png
 https://cdn.upload.systems/uploads/ex9hlTJd.png
 
 Site https://alexssandermartins.github.io/Luxury-Motorsports/
-Other Page Broken Due To Some Weird Github Pages Thing
+Broken On Github Pages Right Now
+
+Some Css Is Auto Handled By Skeletion.dev
