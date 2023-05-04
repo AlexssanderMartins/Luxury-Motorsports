@@ -14,3 +14,6 @@ In ```src/routes/``` Is were The Actual Site Is Located
 https://cdn.upload.systems/uploads/exnWQCkL.png
 
 https://cdn.upload.systems/uploads/ex9hlTJd.png
+
+Site https://alexssandermartins.github.io/Luxury-Motorsports/
+Other Page Broken Due To Some Weird Github Pages Thing
