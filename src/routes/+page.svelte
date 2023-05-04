@@ -1,5 +1,7 @@
 <script lang='ts'>
-
+	
+	import { onMount } from "svelte"
+	import { carList, type Car } from './cars';
 	import Card from './lib/CarCard.svelte'
 
 	let phrase = "Welcome to Luxury Autos.";
@@ -19,6 +21,16 @@
 	const typeing = () => typeWriter = setInterval(typeChar, 80)
 
 	typeing()
+
+	let randomCars: Car[] = []
+
+	onMount(() => {
+		for (let i = 0; i < 3; i++) {
+			const randomIndex = Math.floor(Math.random() * carList.length);
+			const randomElement = carList[randomIndex];
+			randomCars[i] = randomElement;
+		}
+	});
 </script>
 
 <svelte:head>
@@ -34,17 +46,17 @@
 
 		<div>We Offer Car Rental's For Extreamly Cheap Prices</div>
 
-		<a href="/collection" class="btn variant-ghost-success">Rent Now!</a>
+		<a href="/collection" class="btn btn-lg variant-ghost-surface">Start Shopping!</a>
 
-		<div class="p-4 gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-			<Card />
-			<Card />
-			<Card />
+		<div class=" p-4 gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+			{#each randomCars as car}
+				<Card {car} />
+			{/each}
+
 		</div>
 
 		<div class="float-left btn varient">
-			Copyright:
-				
+			Copyright Belongs To (Dodge, Nissan, Toyota, Chevrolet, Mclaren, Porsche)
 		</div>
 	</div>
 </div>
